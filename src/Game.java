@@ -38,7 +38,7 @@ public class Game extends JPanel {
 
     public void resetButtons() {
         for (int i = 0; i <= 8; i++) {
-
+            buttons[i].setText("");
         }
     }
 
